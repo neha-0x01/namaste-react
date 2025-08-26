@@ -13,7 +13,7 @@
   * </div>
   * 
   * ReactElement(object) = > HTML(browser understands)
-  */
+  */ 
  
  //nested components 
  const parent = React.createElement(
@@ -40,14 +40,14 @@
 //  ("h1",{id: "heading"},
 //      "hello world for React!");
 
-
+ 
      console.log(parent);//object
 
     const root = ReactDOM.createRoot(document.getElementById("root"));
    
-    root.render (parent); //  this render method is basically  converting  this  object to  and  the <h1> tag inside the root div of the HTML page.
+    root.render (parent);//  this render method is basically  converting  this  object to  and  the <h1> tag inside the root div of the HTML page.
     //render() method basically React object ko real DOM <h1> tag me convert karke root div ke andar insert karta hai.
-    //“This is how this code works behind the scenes.”
+    // This is how this code works behind the scenes. // browser pr kaam krta hai.
 
 
 
