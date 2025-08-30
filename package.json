@@ -1,0 +1,32 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "this is Namaste React by Neha Kumari",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neha-0x01/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "Neha Kumari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neha-0x01/namaste-react/issues"
+  },
+  "homepage": "https://github.com/neha-0x01/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserslist":[
+    "last 2 chrome versions",
+    "last 2 Firefox versions"
+  ]
+}
