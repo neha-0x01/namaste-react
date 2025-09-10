@@ -9,6 +9,8 @@ import ReactDOM from "react-dom/client";
  *  - Search
  *  - RestaurantContainer
  *  - RestaurantCard
+ *  - img
+ * - name of res , star rating , cuisines, delevery time 
  * Footer
  *  - copyright
  *  - Address
@@ -23,24 +25,49 @@ const Header = () => {
           className="logo"
           src="https://static.vecteezy.com/system/resources/previews/011/468/885/non_2x/food-logo-spoon-fork-icon-illustration-symbol-for-fast-delivery-app-restaurant-template-free-vector.jpg"
         />
-        <div className="nav-items">
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Cart</li>
-          </ul>
-        </div>
+      </div>
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Cart</li>
+        </ul>
       </div>
     </div>
   );
 };
 
+
+const styleCard = {
+  backgroundColor: "#f0f0f0"
+}
+
+const RestaurantCard = () =>{
+return(
+<div className="res-card" style={styleCard}>
+<h3>Meghana Foods</h3>
+</div>
+)
+}
+const Body = () => {
+  return (
+    <div className="body">
+      <div className="search">Search</div>
+      <div className="res-container">
+
+        <RestaurantCard/>
+      </div>
+      
+    </div>
+  );
+};
 const AppLayout = () => {
-  return(
-<div className="app">
-  <Header/>
-  </div>
+  return (
+    <div className="app">
+      <Header />
+      <Body />
+    </div>
   );
 };
 
