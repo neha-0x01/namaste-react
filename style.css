@@ -22,12 +22,26 @@
 }
 
 .res-card{
+    margin: 5px;
      padding: 5px;
     width: 200px;
-    height: 300px;
-   
-    border: 1px solid black;
+    
+
 }
+
+
+  
+.res-container{
+display: flex;
+    flex-wrap: wrap;
+}
+  
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px 5px #888888
+}
+
 
 .search{
     padding: 10px;
@@ -37,3 +51,4 @@
     width: 100%;
     
 }
+
